@@ -1,0 +1,1 @@
+python main.py --dataset='CUB-200-2011' --labeled_ratio=0.1
