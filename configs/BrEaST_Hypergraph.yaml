@@ -1,0 +1,43 @@
+dataset_config:
+  dataset: "BrEaST"
+  image_size: 224
+  batch_size: 32
+  root_dir: "./dataset/BrEaST"
+  image_dir: "./dataset/BrEaST/BrEaST-Lesions_USG-images_and_masks"
+  concept_file: "./dataset/BrEaST/image_dict.csv"
+  split_file: "./dataset/BrEaST/split_indices.pth"
+  use_imbalance: True
+  use_binary_vector_class: True
+  num_workers: 8
+  weight_loss: True
+
+skip_repr_evaluation: True
+top_k_accuracy: [2]
+save_model: True
+
+max_epochs: 150
+patience: 5
+emb_size: 16
+extra_dims: 0
+concept_loss_weight_labeled: 0.5
+concept_loss_weight_unlabeled: 0.1
+learning_rate: 0.0005
+weight_decay: 0.00004
+weight_loss: True
+c_extractor_arch: resnet34
+optimizer: adam
+bool: False
+
+early_stopping_monitor: val_loss
+early_stopping_mode: min
+early_stopping_delta: 0.0
+momentum: 0.9
+sigmoidal_prob: False
+training_intervention_prob: 0.25
+
+runs:
+  - architecture: 'ConceptEmbeddingModel_Hypergraph'
+    run_name: "BrEaST_HyperCBM"
+    sigmoidal_prob: True
+    training_intervention_prob: 0.25
+    embedding_activation: "leakyrelu"

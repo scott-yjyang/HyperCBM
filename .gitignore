@@ -1,0 +1,33 @@
+# External dependency
+cem/
+
+# Model weights
+*.pth
+
+# Datasets (users provide their own)
+dataset/
+
+# Training checkpoints
+checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+*.npy
+
+# Virtual environment
+.venv/
+
+# Visualization outputs
+visual_plot/
+heatmap/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.cursor/
+
+# OS
+.DS_Store
