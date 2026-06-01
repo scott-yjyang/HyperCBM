@@ -1,6 +1,22 @@
 # HyperCBM
 
-**Learning Label-Efficient Interpretable Medical Image Diagnosis via Semi-supervised Hypergraph Concept Bottleneck Model**
+<div align="center">
+<br>
+<h3>Learning Label-Efficient Interpretable Medical Image Diagnosis via Semi-supervised Hypergraph Concept Bottleneck Model</h3>
+
+
+<p align="center">
+<!--   <a href="https://yijun-yang.github.io/MeWM/"><img src="https://img.shields.io/badge/project-page-red" alt="Project Page"></a> -->
+  <a href="https://github.com/scott-yjyang/HyperCBM"><img src="https://img.shields.io/badge/ArXiv-<2507.22530>-<COLOR>.svg" alt="arXiv"></a>
+<!--   <a href="https://huggingface.co/papers/2506.02327"><img src="https://img.shields.io/badge/huggingface-page-yellow.svg" alt="huggingface"></a> -->
+ <p align="center">
+
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=scott-yjyang.HRVVS)
+
+  
+</div>
+
+<p align="center"><img width="100%" src="assets/framework.pdf" /></p>
 
 
 ## Overview
