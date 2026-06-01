@@ -11,7 +11,7 @@
 <!--   <a href="https://huggingface.co/papers/2506.02327"><img src="https://img.shields.io/badge/huggingface-page-yellow.svg" alt="huggingface"></a> -->
  <p align="center">
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=scott-yjyang.HRVVS)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=scott-yjyang.HyperCBM)
 
   
 </div>
