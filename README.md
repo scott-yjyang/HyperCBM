@@ -7,7 +7,7 @@
 
 <p align="center">
 <!--   <a href="https://yijun-yang.github.io/MeWM/"><img src="https://img.shields.io/badge/project-page-red" alt="Project Page"></a> -->
-  <a href="https://github.com/scott-yjyang/HyperCBM"><img src="https://img.shields.io/badge/ArXiv-<2507.22530>-<COLOR>.svg" alt="arXiv"></a>
+  <a href="http://arxiv.org/abs/2606.01698"><img src="https://img.shields.io/badge/ArXiv-<2606.01698>-<COLOR>.svg" alt="arXiv"></a>
 <!--   <a href="https://huggingface.co/papers/2506.02327"><img src="https://img.shields.io/badge/huggingface-page-yellow.svg" alt="huggingface"></a> -->
  <p align="center">
 
